@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Susan Michalski - Documentation Specialist',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -91,13 +91,13 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'templatesSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Templates',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/https://github.com/smichalski17-dev/documentarian/',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
               },
             ],
           },
-          {
+          /**{
             title: 'Community',
             items: [
               {
@@ -144,7 +144,7 @@ const config = {
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
-          },
+          },*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
