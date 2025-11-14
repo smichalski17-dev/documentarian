@@ -76,7 +76,7 @@ Campaigns are created and managed in **Technodrome → Experience Manager**.
 
 The diagram below illustrates the process flow of creating and publishing a Campaign.
 
-![Campaign creation and pulishing flow][/img/contributors/users-guide-overview-example.png]
+
 
 :::
 
@@ -143,7 +143,7 @@ The table below defines available actions for a campaign in a specific status.
 
 _Example Commerce V2 Test 2 Campaign:_
 
-![Commerce Test Campaign](/img/contributors/users-guide-process-example.png)
+
 
 ### Create a New Campaign
 
@@ -151,7 +151,7 @@ _Example Commerce V2 Test 2 Campaign:_
 
 1.  Go to **Technodrome** → **Experience Manager** → **Campaign management** → Click **\+New Campaign**.
 
-    ![Experience-Manager New-Campaign](/img/contributors/users-guide-process-example-2.png)
+ 
 
 2.  Enter **Campaign details**. For field definitions, refer to _Campaign Fields_ below.
     - **NOTE:** Start time must be at least one hour beyond the time you create the campaign.
@@ -162,7 +162,7 @@ _Example Commerce V2 Test 2 Campaign:_
     - Select the **checkbox(es)** next to the audience(s) you want to link.
     - Click **Select audience**.
 
-    ![Campaign-Manager Select-Audience][/img/contributors/users-guide-process-3.png]
+   
 
 :::
 

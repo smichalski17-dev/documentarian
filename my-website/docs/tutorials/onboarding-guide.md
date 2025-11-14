@@ -157,11 +157,11 @@ Use the following steps in the _Xbox Partner Center_ to set up your Xbox applica
    - Set up a valid sandbox for your title. This is usually done with help from IT.
    - Ensure your Xbox title has access to the newly setup sandbox.To test this, look for the newly setup sandbox name in the Primary sandbox dropdown.
 
-   ![step one image example](/img/contributors/onboarding-guide-1.png)
+   
 
 2. Ensure **Xbox live - Single Sign On** section is updated with the http://my.2k.com endpoint.
 
-   ![step wwo image example](/img/contributors/onboarding-guide-2.png)
+  
 
 3. Ensure the **title is published to the given sandbox**.
 
