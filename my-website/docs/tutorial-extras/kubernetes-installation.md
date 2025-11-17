@@ -44,8 +44,6 @@ Run the installation script:
 
 ## Create an instance of Certifai Enterprise
 
-<Alert title="IMPORTANT" color="primary">
-
 If you are using LDAP integration, do that integration now before creating and applying the `certifai-cr.yaml` file.
 
 :::important
