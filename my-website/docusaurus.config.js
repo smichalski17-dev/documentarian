@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Susan Michalski - Documentation Specialist',
+  tagline: 'Without great docs, AI is gets lost in the data.',
+  //favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -28,7 +28,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'documentarian', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -91,9 +91,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'templatesSidebar',
+            sidebarId: 'templateSidebar',
             position: 'left',
-            label: 'Templates',
+            label: 'Template',
           },
           
           {
