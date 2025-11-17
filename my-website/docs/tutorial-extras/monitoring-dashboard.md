@@ -178,7 +178,7 @@ For categorical graphs only, categorical features are listed in the dropdown; wh
 
 Similar to the prediction drift, feature drift is calculated for each feature. For categorical drift Chi-squared test which will very from 0 to N inclusive, is applied.
 
-![Categorical Feature drift graph](/cortex-certifai/img/md-categorical-feature-drift.png)
+![Categorical Feature drift graph](/img/md-categorical-feature-drift.png)
 
 
 ### Numeric feature Drift (Kolmogorov-Smirnov)
