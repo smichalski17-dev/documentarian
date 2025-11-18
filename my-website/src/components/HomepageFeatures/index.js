@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Information Architecture',
+    Svg: require('@site/static/img/documentation.jpg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        I can help your organization wrangle your documenation from disparate sources into a single docs-as-code site managed by a static site generator like the one that built this site.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Writing the Docs',
+    Svg: require('@site/static/img/typewriter.jpg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        I can write clear concise docs for any audience on any topic: onboarding, APIs, SDKs, configuration, developer guides, user manuals, test plans, and more.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Empowering Teams and AI to Build Better Docs',
+    Svg: require('@site/static/img/editor.jpg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I am an experiences teacher trainer who is passionate about enabling teams to produce better code by producing better documentation with the help of templates, tutorials, and AI tools.
       </>
     ),
   },
