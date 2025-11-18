@@ -1,9 +1,11 @@
 ---
-title: Templates
+title: Documentaion Samples
 sidebar_position: 1
 ---
 
-# Templates
+
+ 
+## Templates
 
 In this section you will find the templates I developed to assist developers and project managers who were tasked with writing documentation. They could either start with the templates in Google docs or they could use them from markdown. 
 
