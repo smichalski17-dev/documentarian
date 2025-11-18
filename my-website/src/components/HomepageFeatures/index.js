@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Information Architecture',
-    Svg: require('@site/static/img/documenation.jpg').default,
+    Svg: require('@site/static/img/documentation.jpg').default,
     description: (
       <>
         I can help your organization wrangle your documenation from disparate sources into a single docs-as-code site managed by a static site generator like the one that built this site.
