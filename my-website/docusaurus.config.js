@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Home',
+        title: 'Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/avatar.png',
@@ -110,7 +110,7 @@ const config = {
             title: 'My Docs',
             items: [
               {
-                label: 'My LinkedIn',
+                label: 'My Docs',
                 to: 'https://www.linkedin.com/in/suemich/',
               },
             ],
