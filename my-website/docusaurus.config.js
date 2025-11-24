@@ -113,10 +113,6 @@ const config = {
                 label: 'My LinkedIn',
                 to: 'https://www.linkedin.com/in/suemich/',
               },
-              {
-                label: 'My Author Website',
-                to: 'https://www.susan-michalski.com/',
-              },
             ],
           },
           /**{
