@@ -110,11 +110,11 @@ const config = {
             title: 'Links',
             items: [
               {
-                label: 'My LinkedIn,
+                label: 'My LinkedIn',
                 to: 'https://www.linkedin.com/in/suemich/',
               },
               {
-                label: 'My Author Website,
+                label: 'My Author Website',
                 to: 'https://www.susan-michalski.com/',
               },
             ],
