@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Docs',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/avatar.png',
@@ -93,7 +93,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'templateSidebar',
             position: 'left',
-            label: 'Template',
+            label: 'Documentation',
           },
           
           {
