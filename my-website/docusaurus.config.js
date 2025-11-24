@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'Susan Michalski', // Usually your GitHub org/user name.
   projectName: 'documentarian', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -49,8 +49,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/smichalski17-dev/documentarian',
+          //editUrl:
+            //'https://github.com/smichalski17-dev/documentarian',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
+          //editUrl:
             'https://github.com/smichalski17-dev/documentarian/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: 'My LinkedIn',
-                to: 'https://www.linkedin.com/in/suemich/',
+                href: 'https://www.linkedin.com/in/suemich/',
               },
               {
                 label: 'My Author Website',
-                to: 'https://www.susan-michalski.com/',
+                href: 'https://www.susan-michalski.com/',
               },
             ],
           },
