@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Docs',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/avatar.png',
@@ -107,11 +107,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'My Docs',
+            title: 'Links',
             items: [
               {
-                label: 'My Docs',
+                label: 'My LinkedIn',
                 to: 'https://www.linkedin.com/in/suemich/',
+              },
+              {
+                label: 'My Author Website',
+                to: 'https://www.susan-michalski.com/',
               },
             ],
           },
