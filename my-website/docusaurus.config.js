@@ -107,7 +107,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Links',
+            title: 'My Docs',
             items: [
               {
                 label: 'My LinkedIn',
