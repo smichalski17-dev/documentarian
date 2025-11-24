@@ -107,11 +107,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'My Docs',
+            title: 'Links',
             items: [
               {
-                label: 'My Docs',
-                to: '/docs/intro',
+                label: 'My LinkedIn,
+                to: 'https://www.linkedin.com/in/suemich/',
+              },
+               {
+                label: 'My Author Website,
+                to: 'https://www.susan-michalski.com/',
               },
             ],
           },
