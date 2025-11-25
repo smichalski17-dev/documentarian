@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Empowering Teams and AI to Build Better Docs',
-    Svg: require('@dsite/static/img/editor.svg').default,
+    Svg: require('@site/static/img/editor.svg').default,
     description: (
       <>
         I am an experiences teacher trainer who is passionate about enabling teams to produce better code by producing better documentation with the help of templates, tutorials, and AI tools.
