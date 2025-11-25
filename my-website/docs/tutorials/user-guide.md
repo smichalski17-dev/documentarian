@@ -29,8 +29,6 @@ All examples are from 2K documentation samples.
 
 \*Audience, Purpose, Subject summary statement
 
-    [Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
 :::example
 
 This page provides an overview of Technodrome → Experience Manager and details how Live Ops and Studio Developers can view, create, and manage Campaigns.

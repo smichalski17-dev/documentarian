@@ -29,8 +29,6 @@ All examples are from 2K documentation samples.
 
 \*Audience, Purpose, Subject summary statement
 
-    [Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
     :::example
 
     This page details how Studio Developers, Engineers, and Programmers can configure the game fleet autoscaling management feature.

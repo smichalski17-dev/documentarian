@@ -29,8 +29,6 @@ All examples are from 2K documentation samples.
 
 \*Audience, Purpose, Subject summary statement
 
-    [Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
     :::example
 
     This guide provides Studio Developers/Engineering/Programmers detailed instructions for setting up first-party SSO for Xbox Live, critical for ensuring secure and efficient Xbox logins in the DNA platform.
@@ -69,12 +67,12 @@ All examples are from 2K documentation samples.
     1. The game client utilizes XDK / GDK to retrieve an xstsToken.
     2. The client logs into the 2K Account with their Xbox credentials and sends the obtained xstsToken to the DNA Identity Service.
     3. The DNA Identity Service verifies the xstsToken by:
-        - Checking against the XSTS token signing certificate available at: [https://xsts.auth.xboxlive.com/xsts/signingkeys](https://xsts.auth.xboxlive.com/xsts/signingkeys) This involves:
-        - Initiating the service without an existing certificate.
-        - Requesting and retrieving the certificate from the provided endpoint.
-        - Caching the certificate to validate all subsequent xstsToken.
-        - Identifying and validating any tokens with new signature certificates.
-        - Using the Identity Service’s private key to decrypt the xstsToken.
+        - Checking against the XSTS token signing. This involves:
+            - Initiating the service without an existing certificate.
+            - Requesting and retrieving the certificate from the provided endpoint.
+            - Caching the certificate to validate all subsequent xstsToken.
+            - Identifying and validating any tokens with new signature certificates.
+            - Using the Identity Service’s private key to decrypt the xstsToken.
     4. The token embeds critical DNA SSO data, such as the xuid and xblGamertag.
     5. A JSON Web Token (JWT) is generated and sent back to the game client, which contains an expiration timeline.
     6. The game client remains authenticated as long as the JWT remains valid.
@@ -159,7 +157,7 @@ Use the following steps in the _Xbox Partner Center_ to set up your Xbox applica
 
    
 
-2. Ensure **Xbox live - Single Sign On** section is updated with the http://my.2k.com endpoint.
+2. Ensure **Xbox live - Single Sign On** section is updated with the website's endpoint.
 
   
 
