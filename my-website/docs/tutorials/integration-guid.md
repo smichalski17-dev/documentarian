@@ -27,8 +27,6 @@ All examples are from 2K documentation samples.
 
 \*[Audience, Purpose, Subject summary statement]
 
-[Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
 :::example
 
 This guide outlines the necessary steps and identifiers that Studio Developers/Engineering/Programmers need to integrate Xbox to allow reconciliation of purchases within a game.
@@ -161,9 +159,9 @@ For DNA services to accurately determine which Xbox application requires reconci
 
 The following instructions apply to teams aiming for cross-title purchasing. For example, players can buy titles, DLC, or in-game items for **Game A** while playing **Game B**.
 
-For cross-title, cross-DLC purchases in Xbox applications, ensure titles are interconnected on [Microsoft Partner center](https://partner.microsoft.com/). To establish a relationship between two products:
 
-1.  Access [_Microsoft Partner center_](https://partner.microsoft.com/).
+
+1.  Access Partner center
 2.  Pick your desired product from the products tab.
 3.  Select the **Product Relationship Setup** tab on the navigation menu.
 4.  Click **Add a New Relationship** to introduce a new product association to the current title.

@@ -15,7 +15,7 @@ All examples are from 2K documentation samples.
 
 \*[Provide detailed instructions and information on how to set up, manage, and maintain a system, application, or environment. Typically related to settings.]
 
----
+
 
 ## \*Title (Product \+ Document Type)
 
@@ -28,8 +28,6 @@ All examples are from 2K documentation samples.
     :::
 
 \*Audience, Purpose, Subject summary statement
-
-    [Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
 
     :::example
 
@@ -188,7 +186,7 @@ All examples are from 2K documentation samples.
 
 ## Build and Publish (If applicable)
 
-\*[Describe the steps required to generate a build and publish to production if this is part of the configuration process]
+\* Describe the steps required to generate a build and publish to production if this is part of the configuration process.
 
     :::example
 
@@ -208,12 +206,12 @@ All examples are from 2K documentation samples.
 
 ## Verification Process (If applicable)
 
-\*[Add steps to demonstrate how the configuration is verified.]
+\* Add steps to demonstrate how the configuration is verified
 
 ## Next Steps (Optional)
 
-\*[Include this section if there is some logical next action that must be taken or link to documentation for that activity.]
+\* Include this section if there is some logical next action that must be taken or link to documentation for that activity
 
 ## Appendix
 
-\*[Referential materials that will help users understand the topic: diagrams, tables, glossaries, related articles, etc.]
+\* Referential materials that will help users understand the topic: diagrams, tables, glossaries, related articles, etc.

@@ -29,8 +29,6 @@ All examples are from 2K documentation samples.
 
 \*[Audience, Purpose, Subject summary statement]
 
-[Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
 :::example
 
 This page details how Studio Developers can implement Identity’s QR-based account linking feature supported with DCL, including integration for COPPA compliant login and registration.
@@ -50,14 +48,14 @@ This page details how Studio Developers can implement Identity’s QR-based acco
 
 ## Introduction
 
-DNA requires **QR based account linking** for user registration and account management, ensuring secure player verification and COPPA compliance. This method replaces manual email/password linking, with the entire process facilitated through [portal.2k.com](http://portal.2k.com).
+DNA requires **QR based account linking** for user registration and account management, ensuring secure player verification and COPPA compliance. This method replaces manual email/password linking.
 
       - **Simplified account verification:** Players link accounts by scanning a QR code, simplifying the verification process and making it easy for parents to manage child accounts.
       - **Enhanced security:** QR codes reduce unauthorized access, particularly important for Child accounts needing parental consent.
       - **Efficient parental controls:** Parents can quickly link and manage child accounts, allowing them to monitor and adjust settings as needed.
       - **Seamless integration with age assurance:** Integrates with age verification during account setup to automatically apply correct age-based settings, ensuring compliance with COPPA and local privacy laws.
       - **Improved user experience:** Easy setup and management for players and parents, keeping them focused on game enjoyment while maintaining privacy and safety.
-      - **COPPA compliance:** QR based account linking simplifies the age verification process and allows parents to manage parental controls. For details, refer to [_COPPA & Age-based Account Settings_](https://2kgames.atlassian.net/wiki/spaces/TS/pages/1193247418)
+      - **COPPA compliance:** QR based account linking simplifies the age verification process and allows parents to manage parental controls. 
 
 :::
 
@@ -120,7 +118,7 @@ Configured DNA application for all supported platforms in your Title.
 
 | Method | Request |
 | :-- | :-- |
-| Get User code and verification URL | `Request:  POST https://dev.portal.2k.com/oauth2/device_link Authorization: Bearer {{bearer}} Response: HTTP/1.1 200 OK {   "userCode": "E56CPG",   "verificationUrl": "https://dev.portal.2k.com/device?jti=f4a242a0f7104b3983c0a67f6fa2479e",   "verificationUrlComplete": "https://dev.portal.2k.com/device?jti=f4a242a0f7104b3983c0a67f6fa2479e&amp;user_code=E56CPG",   "expiresIn": 3600 }` |
+| Get User code and verification URL | `Request:  POST https://dev.portal./oauth2/device_link Authorization: Bearer {{bearer}} Response: HTTP/1.1 200 OK {   "userCode": "E56CPG",   "verificationUrl": "https://dev.portal.com/device?jti=fb3983c0a67f6fa2479e",   "verificationUrlComplete": "https://dev.portal.com/device?jti=f4a242a0f7100a67f6fa2479e&amp;user_code=EG",   "expiresIn": 3600 }` |
 
 :::
 

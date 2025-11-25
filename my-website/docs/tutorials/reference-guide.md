@@ -27,8 +27,6 @@ All examples are from 2K documentation samples.
 
 \*Audience, Purpose, Subject summary statement
 
-    [Assistance with writing this summary statement can be found [here](/contributors/style-guide/matters-of-style#audience-purpose-and-subject)]
-
     :::example
 
     This page explains **Smart Pricing** and **Repurchase Policy** for Studio Developers and Live Ops users setting up a pricing strategy for in-game inventory items and offers.
