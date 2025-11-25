@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Information Architecture',
-    Svg: require('@documentarian/static/img/infoarch.svg').default,
+    Svg: require('@site/static/img/infoarch.svg').default,
     description: (
       <>
         I can help your organization wrangle your documenation from disparate sources into a single docs-as-code site managed by a static site generator like the one that built this site.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Writing the Docs',
-    Svg: require('@documentarian/static/img/writer.svg').default,
+    Svg: require('@site/static/img/writer.svg').default,
     description: (
       <>
         I can write clear concise docs for any audience on any topic: onboarding, APIs, SDKs, configuration, developer guides, user manuals, test plans, and more.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Empowering Teams and AI to Build Better Docs',
-    Svg: require('@documentarian/static/img/editor.svg').default,
+    Svg: require('@dsite/static/img/editor.svg').default,
     description: (
       <>
         I am an experiences teacher trainer who is passionate about enabling teams to produce better code by producing better documentation with the help of templates, tutorials, and AI tools.
