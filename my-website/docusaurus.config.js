@@ -27,11 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-<<<<<<< HEAD
-  organizationName: 'smichalski17-dev', // Usually your GitHub org/user name.
-=======
   organizationName: 'Susan Michalski', // Usually your GitHub org/user name.
->>>>>>> f0e90275cd97ea23299d62c9f6776db1a6a6550a
   projectName: 'documentarian', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -53,13 +49,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-<<<<<<< HEAD
-          editUrl:
-            'https://github.com/smichalski17-dev/documentarian/tree/main/my-website/',
-=======
           //editUrl:
             //'https://github.com/smichalski17-dev/documentarian',
->>>>>>> f0e90275cd97ea23299d62c9f6776db1a6a6550a
         },
         blog: {
           showReadingTime: true,
@@ -69,13 +60,8 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-<<<<<<< HEAD
-          editUrl:
-            'https://github.com/smichalski17-dev/documentarian/tree/main/my-website/',
-=======
           //editUrl:
             'https://github.com/smichalski17-dev/documentarian/',
->>>>>>> f0e90275cd97ea23299d62c9f6776db1a6a6550a
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
