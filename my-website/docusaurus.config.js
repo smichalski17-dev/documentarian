@@ -61,11 +61,11 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
-            'https://github.com/smichalski17-dev/documentarian/',
+            //https://github.com/smichalski17-dev/documentarian
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          //onInlineTags: 'warn',
+          //onInlineAuthors: 'warn'
+          //onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
