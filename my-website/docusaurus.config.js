@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Susan Michalski - Documentation Specialist',
-  tagline: 'Without great docs, AI is gets lost in the data.',
+  tagline: 'You need great docs organized clearly to provide a strong foundation for any useful AI agent or application.',
   //favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

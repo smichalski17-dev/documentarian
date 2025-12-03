@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/editor.svg').default,
     description: (
       <>
-        I am an experiences teacher trainer who is passionate about enabling teams to produce better code by producing better documentation with the help of templates, tutorials, and AI tools.
+        I am an experienced teacher trainer who is passionate about enabling teams to produce better code by producing better documentation with the help of templates, tutorials, and AI tools.
       </>
     ),
   },
