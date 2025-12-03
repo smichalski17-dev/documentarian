@@ -514,5 +514,5 @@ Screen shot  formatting rules:
   * 1pt  
   * No shadows
 
-![Annotated screenshot](/styleguide.jpg)
+![Annotated screenshot](/img/styleguide.jpg)
 
