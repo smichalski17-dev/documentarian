@@ -1,17 +1,17 @@
 ---
 title: Configuration Guide
-description: ZMGT Documentation Template - Configuration Guide
+description: Documentation Template - Configuration Guide
 ---
 
 :::note
 
 To use the template: Replace any content with an \* beside it with content that is similar to the example. Delete this note, all notes in square braces, and examples.
 
-All examples are from 2K documentation samples.
+All examples are made up from a fictional example game.
 
 :::
 
-# ZMGT Documentation Template: Configuration Guide
+# Documentation Template: Configuration Guide
 
 \*[Provide detailed instructions and information on how to set up, manage, and maintain a system, application, or environment. Typically related to settings.]
 
@@ -23,7 +23,7 @@ All examples are from 2K documentation samples.
 
     :::example
 
-    ## Game Fleet Autoscaling: Multiplayer Configuration Guide
+    ## Game Autoscaling: Multiplayer Configuration Guide
 
     :::
 
@@ -31,7 +31,7 @@ All examples are from 2K documentation samples.
 
     :::example
 
-    This page details how Studio Developers, Engineers, and Programmers can configure the game fleet autoscaling management feature.
+    This page details how developers can configure the game autoscaling management feature.
 
     :::
 
@@ -48,7 +48,7 @@ All examples are from 2K documentation samples.
 
     ## Introduction
 
-    The **fleet autoscaling management feature** provides greater flexibility in creating autoscaling configurations and defining rules. To use the feature, developers prepare a JSON configuration (no need to update game revisions or fleets) and upload it to Technodrome → Cloud Data. The Multiplayer Service periodically reads this configuration and applies it to existing fleets.
+    The autoscaling management feature provides greater flexibility in creating autoscaling configurations and defining rules. To use the feature, developers prepare a JSON configuration and upload it to Cloud Data. The multiplayer service periodically reads and applies this configuration.
 
     :::
 
@@ -60,8 +60,8 @@ All examples are from 2K documentation samples.
 
     ## Prerequisites
 
-    - Obtain authorized access to Homer CLI tools
-    - Obtain access to Technodrome → Cloud Data
+    - Obtain authorized access to CLI tools
+    - Obtain access to Cloud Data
 
     :::
 
@@ -80,9 +80,9 @@ All examples are from 2K documentation samples.
 
     ## Configuration Items
 
-    The fleet autoscaling configuration is a JSON object that contains two list attributes:
+    The autoscaling configuration is a JSON object that contains two list attributes:
 
-    - **fleet_scaling_schedules:** Attributes define weekly schedules
+    - **scaling_schedules:** Attributes define weekly schedules
     - **override_scaling_events:** Attributes define event date(s) and time(s) when the override configuration takes precedence over other configurations.
 
     :::
@@ -93,13 +93,8 @@ All examples are from 2K documentation samples.
     | Attributes | Description | Format |
     | --- | --- | --- |
     | **name** | Identifies the **schedule_name** or **event_name** | String |
-    | **game** | Identifies **game_name** of the game configured with **homer_game_create** | String |
-    | **fleet_selector** | Selection of attributes that can be used to identify which fleet(s) the schedule applies to. **Only one attribute** should be used per selector: |  |
-    |  | **continents** | String |
+    | **game** | Identifies **game_name** of the game configured | String |
     |  | **regions** | String |
-    |  | **clusters** | String |
-    |  | **fleet_ids** | String |
-    |  | **client_groups** | String |
     |  | **game_types** | String |
     |  | **revision_ids** | String |
     | **default_scale_config** or **scale_config** (override) | Array of attributes that define the default scale configuration or the override scale configuration: |  |
@@ -113,14 +108,11 @@ All examples are from 2K documentation samples.
 
     ```json
     {
-        "fleet_scaling_schedules": [
+        "scaling_schedules": [
             {
                 "name": "my_schedule",
                 "game": "awesome_game",
-                "fleet_selector": {
-                    "fleet_ids": [
-                        "ck640q2pqn3ursehj6m0"
-                    ]
+                ]
                 },
                 "default_scale_config": {
                     "upper_threshold": 0.7,
@@ -159,10 +151,7 @@ All examples are from 2K documentation samples.
             {
                 "name": "launch_weekend",
                 "game": "awesome_game",
-                "fleet_selector": {
-                    "continents": [
-                        "america", "europe"
-                    ]
+                ]
                 },
                 "scale_config": {
                     "upper_threshold": 0.7,
@@ -192,17 +181,12 @@ All examples are from 2K documentation samples.
 
     ## Build and Publish
 
-    Once the JSON configuration with the rules for autoscaling is created, upload it to a specific record in **Technodrome → Cloud Data,** where the Multiplayer Service automatically detects and applies it. Follow these steps:
+    Once the JSON configuration with the rules for autoscaling is created, upload it to a specific record in cloud data, where the multiplayer service automatically detects and applies it. Follow these steps:
 
-    1. Go to **Technodrome → Cloud Data →** Select **Title**.
-    2. Click **\+New Record** to create the record that will hold the configuration.
-    3. Enter the **New Record Details**:
-        - **Key:** This record name should have format **mm_autoscale\_\<env\>\_config**, where \<env\> is the name of your multiplayer environment.
-
-            _Example_: If your environment is prod.1234567, your record name should be mm*autoscale_prod_config.
-
-            **NOTE:** Use a uniformly distributed key (\_e.g.*, UUID) rather than monotonically increasing values for performance reasons.
-    :::
+    1. Go to **Cloud Data**.
+    2. Click **\+New Record** to create a new configuration.
+    3. Enter the **New Config**.
+        
 
 ## Verification Process (If applicable)
 

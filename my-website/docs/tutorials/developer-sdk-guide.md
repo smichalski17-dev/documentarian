@@ -1,17 +1,16 @@
 ---
 title: 'Developer (SDK) Guide'
-description: ZMGT Documentation Template - Developer Guide (SDK Guide)
+description: Documentation Template - Developer Guide (SDK Guide)
 ---
 
 :::note
 
 To use the template: Replace any content with an \* beside it with content that is similar to the example. Delete this note, all notes in square braces, and examples.
 
-All examples are from 2K documentation samples.
-
+All examples are made up from a fictional example game.
 :::
 
-# ZMGT Documentation Template: Developer Guide (SDK Guide)
+# Documentation Template: Developer Guide (SDK Guide)
 
 \*[This template is for SDK or developer guides. It provides users with step-by-step instructions for accomplishing a software task using SDKs, APIs, or code. Typically, this involves backend tasks that may also include integration or configuration.]
 
@@ -31,7 +30,7 @@ All examples are from 2K documentation samples.
 
 :::example
 
-This page details how Studio Developers can implement Identity’s QR-based account linking feature supported with DCL, including integration for COPPA compliant login and registration.
+This page details how developers can implement an identity QR-based account linking feature, including integration for COPPA compliant login and registration.
 
 :::
 
@@ -48,7 +47,7 @@ This page details how Studio Developers can implement Identity’s QR-based acco
 
 ## Introduction
 
-DNA requires **QR based account linking** for user registration and account management, ensuring secure player verification and COPPA compliance. This method replaces manual email/password linking.
+This game requires **QR based account linking** for user registration and account management, ensuring secure player verification and COPPA compliance. This method replaces manual email/password linking.
 
       - **Simplified account verification:** Players link accounts by scanning a QR code, simplifying the verification process and making it easy for parents to manage child accounts.
       - **Enhanced security:** QR codes reduce unauthorized access, particularly important for Child accounts needing parental consent.
@@ -73,9 +72,9 @@ DNA requires **QR based account linking** for user registration and account mana
 
 Configured DNA application for all supported platforms in your Title.
 
-| Supported Engines  |          Min SDK Version           |
-| :----------------: | :--------------------------------: |
-| Unreal, C++, Unity | **DCL**: version, **DTL**: version |
+| Supported Engines  |    Min SDK Version     |
+| :----------------: | :--------------------: |
+| Unreal, C++, Unity | **MyGame**: version1.0 |
 
 :::
 
@@ -88,7 +87,7 @@ Configured DNA application for all supported platforms in your Title.
 ## Resources
 
 - Refer to _Legal Documents & UX Boot Flows_ for resources and guidelines for legal standards, policies, and compliance requirements, including T2 legal documents, boot flow standards, and recommended UX boot flow diagrams.
-- Access to the documents should have been provided during your initial onboarding. If you do not have access, please contact your DNA rep.
+- Access to the documents should have been provided during your initial onboarding. If you do not have access, please contact your Game rep.
 
 :::
 
@@ -128,9 +127,9 @@ Configured DNA application for all supported platforms in your Title.
 
 ### Sample Implementation
 
-Below are integration steps you can find in the SDK DCL Sample Game source code.
+Below are integration steps you can find in the SDK Sample Game source code.
 
-1. Game initiates login into the DNA platform via DCL.
+1. Game initiates login.
 
 
     - Login response returns:
@@ -141,9 +140,9 @@ Below are integration steps you can find in the SDK DCL Sample Game source code.
 3. A confirmation screen displays in game to confirm if the user currently logged in is the user that is trying to link the accounts.
 
 
-    - This is conditional based on the user already seeing/confirming their console login on a previous game boot. Before the following flow is implemented, the game calls cloud data to confirm if the user has an existing record saved, key: ConsoleLoginConfirmation.
+    - This is conditional based on the user already seeing/confirming their console login on a previous game boot. Before the following flow is implemented, the game calls cloud data to confirm if the user has an existing record saved, key: LoginConfirmation.
 
-`GET /users/@account/products/@product/records/ConsoleLoginConfirmation`
+`GET /users/@account/game/@game/records/LoginConfirmation`
 
 `Response:`
 

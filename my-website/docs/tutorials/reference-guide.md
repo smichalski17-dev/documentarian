@@ -1,17 +1,17 @@
 ---
 title: Reference Guide
-description: ZMGT Documentation Template - Reference Guide
+description: Documentation Template - Reference Guide
 ---
 
 :::note
 
 To use the template: Replace any content with an \* beside it with content that is similar to the example. Delete this note, all notes in square braces, and examples.
 
-All examples are from 2K documentation samples.
+All examples are made up from a fictional example game.
 
 :::
 
-# ZMGT Documentation Template: Reference Guide
+# Documentation Template: Reference Guide
 
 \*[**NOTE**: Reference guides provide detailed information that helps users understand policies, functions, methods, properties, parameters, etc. Examples include a Glossary, Data Dictionary, Policy Document, etc. **This page includes an _example_ of a reference guide.** While reference guides may be structured differently, they all should include: **Document Title and Version, subject statement to define audience/purpose,** and **Introduction**, as noted below.]
 
@@ -46,7 +46,7 @@ All examples are from 2K documentation samples.
 
     # Introduction
 
-    **Smart Pricing/Repurchase Policy** is a dynamic pricing strategy used by DNA Commerce Marketplace to adjust the price of an **in-game bundled offer** based on the user's existing ownership of **durable, unique items** (a player can only own one) within that offer.
+    **Smart Pricing/Repurchase Policy** is a dynamic pricing strategy used by My Marketplace to adjust the price of an **in-game bundled offer** based on the user's existing ownership of **durable, unique items** (a player can only own one) within that offer.
 
     This mechanism automatically reduces the cost of a bundle or offer by excluding the price of items the user already owns, ensuring users do not pay for items they already have, while still providing a discounted price for the remaining items. This method enhances perceived value and encourages additional purchases without redundant costs.
 

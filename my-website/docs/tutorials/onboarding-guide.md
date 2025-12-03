@@ -1,17 +1,17 @@
 ---
 title: Onboarding (Implementation) Guide
-description: ZMGT Documentation Template - Onboarding Implementation Guide
+description: Documentation Template - Onboarding Implementation Guide
 ---
 
 :::note
 
 To use the template: Replace any content with an \* beside it with content that is similar to the example. Delete this note, all notes in square braces, and examples.
 
-All examples are from 2K documentation samples.
+All examples are made up from a fictional example game.
 
 :::
 
-# ZMGT Documentation Template: Onboarding (Implementation) Guide
+# Documentation Template: Onboarding (Implementation) Guide
 
 \*[Help users integrate with a new system, software, or product. Include step-by-step setup procedures, from initial introduction to the first use case.]
 
@@ -23,7 +23,7 @@ All examples are from 2K documentation samples.
 
     :::example
 
-    ## First-party SSO for Xbox Live Identity Implementation Guide
+    ## MyGame Identity First-party SSO Implementation Guide
 
     :::
 
@@ -31,7 +31,7 @@ All examples are from 2K documentation samples.
 
     :::example
 
-    This guide provides Studio Developers/Engineering/Programmers detailed instructions for setting up first-party SSO for Xbox Live, critical for ensuring secure and efficient Xbox logins in the DNA platform.
+    This guide provides developers with detailed instructions for setting up first-party SSO for ensuring secure and efficient logins in the MyGame platform.
 
     :::
 
@@ -62,18 +62,18 @@ All examples are from 2K documentation samples.
 
     :::example
 
-    ## Overview: DNA SSO Identity Validation Flow**
+    ## Overview: MyGame SSO Identity Validation Flow**
 
-    1. The game client utilizes XDK / GDK to retrieve an xstsToken.
-    2. The client logs into the 2K Account with their Xbox credentials and sends the obtained xstsToken to the DNA Identity Service.
-    3. The DNA Identity Service verifies the xstsToken by:
-        - Checking against the XSTS token signing. This involves:
+    1. The game client utilizes the SDK to retrieve an authToken.
+    2. The client logs into the system account with their MyGame credentials and sends the obtained authToken to the Identity Service.
+    3. The Identity Service verifies the authToken by:
+        - Checking against the token signing. This involves:
             - Initiating the service without an existing certificate.
             - Requesting and retrieving the certificate from the provided endpoint.
-            - Caching the certificate to validate all subsequent xstsToken.
+            - Caching the certificate to validate all subsequent authTokens.
             - Identifying and validating any tokens with new signature certificates.
-            - Using the Identity Service’s private key to decrypt the xstsToken.
-    4. The token embeds critical DNA SSO data, such as the xuid and xblGamertag.
+            - Using the Identity Service’s private key to decrypt the authToken.
+    4. The token embeds critical SSO data, such as the identiy uid and MyGametag.
     5. A JSON Web Token (JWT) is generated and sent back to the game client, which contains an expiration timeline.
     6. The game client remains authenticated as long as the JWT remains valid.
 
@@ -87,8 +87,8 @@ All examples are from 2K documentation samples.
 
     ## Components
 
-    - **First-party application setup**: Set up Xbox application for SSO
-    - **DNA first-party application setup**: Request DNA first-party application ID
+    - **First-party application setup**: Set up the application for SSO
+    - *MyGame first-party application setup**: Request first-party application ID
 
     :::
 
@@ -117,8 +117,7 @@ All examples are from 2K documentation samples.
 
     ## Resources
 
-    - For Identity setup details, resources, and guides, refer to _DNA Identity_.
-    - For UX bootflows, refer to _In-game SSO UX Boot Flow Diagrams_.
+    - For Identity setup details, resources, and guides, refer to _MyGame Identity_.
 
     :::
 
@@ -148,16 +147,16 @@ When the integration process is complete, your Xbox application will be set up t
 
 ### Step 1: Set up Xbox application for SSO\*\*
 
-Use the following steps in the _Xbox Partner Center_ to set up your Xbox application for SSO. You’ll get a _Title ID_ needed for DNA application setup.
+Use the following steps in the to set up your application for SSO. You’ll get a _Title ID_ needed for  application setup.
 
 1. Ensure the game setup section is completed.
-   - Xbox Live is enabled for your title.
+   - Your System is enabled for your title.
    - Set up a valid sandbox for your title. This is usually done with help from IT.
-   - Ensure your Xbox title has access to the newly setup sandbox.To test this, look for the newly setup sandbox name in the Primary sandbox dropdown.
+   - Ensure your title has access to the newly setup sandbox.To test this, look for the newly setup sandbox name in the Primary sandbox dropdown.
 
    
 
-2. Ensure **Xbox live - Single Sign On** section is updated with the website's endpoint.
+2. Ensure **MyGame - Single Sign On** section is updated with the website's endpoint.
 
   
 
@@ -165,7 +164,7 @@ Use the following steps in the _Xbox Partner Center_ to set up your Xbox applica
 
    . . .
 
-### Step 2: Request DNA first-party application ID
+### Step 2: Request MyGame first-party application ID
 
 :::
 
@@ -193,8 +192,8 @@ Use the following steps in the _Xbox Partner Center_ to set up your Xbox applica
 
     ## Next Steps
 
-    - To set up Commerce, refer to _DNA Commerce_.
-    - To set up reconciliation for Xbox purchases within your game, refer to the _Commerce Integration Guide_.
+    - To set up Commerce, refer to _MyGame_ Commerce_.
+    - To set up reconciliation for purchases within your game, refer to the _Commerce Integration Guide_.
 
     :::
 

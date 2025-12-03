@@ -1,17 +1,17 @@
 ---
 title: User Guide
-description: ZMGT Documentation Template - User Guide
+description: Documentation Template - User Guide
 ---
 
 :::note
 
 To use the template: Replace any content with an \* beside it with content that is similar to the example. Delete this note, all notes in square braces, and examples.
 
-All examples are from 2K documentation samples.
+All examples are made up from a fictional example game.
 
 :::
 
-# ZMGT Documentation Template: User Guide
+# Documentation Template: User Guide
 
 \*[Provide users with step-by-step instructions for using all or part of a system, service, or software with a particular goal or outcome. Usually includes diagrams and screenshots of UI to provide clear instructions. The focus is on front end use cases that are not specifically onboarding, integration, or configuration.]
 
@@ -31,7 +31,7 @@ All examples are from 2K documentation samples.
 
 :::example
 
-This page provides an overview of Technodrome → Experience Manager and details how Live Ops and Studio Developers can view, create, and manage Campaigns.
+This page provides an overview of Experience Manager and details how developers can view, create, and manage campaigns.
 
 :::
 
@@ -50,7 +50,7 @@ This page provides an overview of Technodrome → Experience Manager and details
 
 The **Experience Manager** is a “content orchestrator” to create personalized promotional and engagement campaigns, linking audiences, content, and start/end dates. The Experience Manager provides:
 
-- Campaign status flow: Draft, Waiting for approval, Scheduled, Active
+- Campaign flow statuses : Draft, Waiting for approval, Scheduled, Active
 - Telemetry integration: Events are triggered to describe actions taken by the campaign
 - Push integration: A message is sent to the game clients to enable a refresh and show new content to users in real time
 - Ingestion and throttling: Allows throttling at output level, includes data validation/operations
@@ -65,16 +65,12 @@ The **Experience Manager** is a “content orchestrator” to create personalize
 
 ## Overview Process Flow and Diagram
 
-Campaigns are created and managed in **Technodrome → Experience Manager**.
+Campaigns are created and managed in **The Experience Manager**.
 
 1.  Create Draft campaign.
 2.  Submit for approval.
 3.  Approve the campaign.
 4.  Publish the campaign. Published campaigns become visible when the start date/time is reached.
-
-The diagram below illustrates the process flow of creating and publishing a Campaign.
-
-
 
 :::
 
@@ -109,9 +105,9 @@ The table below defines available actions for a campaign in a specific status.
 
 ## Prerequisites
 
-- Access to **Technodrome → Experience Manager**
-- Linked **Audience** and **Content**
-- _(Optional)_ **Integration with Push**
+- Access to **The Experience Manager**
+- Links to **Audience** and **Content**
+- _(Optional)_ **Integration with Push Notifications**
 
 :::
 
@@ -136,31 +132,24 @@ The table below defines available actions for a campaign in a specific status.
 
 **Role permissions:** Marketer and Marketing Manager
 
-1. Go to **Technodrome** → **Experience Manager** → **Campaign management**.
-2. Click on a **Campaign**. The _Campaign_ page displays, listing any linked audiences and content.
+1. Go to **The Experience Manager** → **Campaign management**.
+2. Click on a **Campaign**. The _Campaign_ page is displayed, listing any linked audiences and content.
 
-_Example Commerce V2 Test 2 Campaign:_
-
-
+_Example Test 2 Campaign:_
 
 ### Create a New Campaign
 
 **Role permissions:** Marketer and Marketing Manager
 
-1.  Go to **Technodrome** → **Experience Manager** → **Campaign management** → Click **\+New Campaign**.
-
- 
-
+1.  Go to **The Experience Manager** → **Campaign management** → Click **\+New Campaign**.
 2.  Enter **Campaign details**. For field definitions, refer to _Campaign Fields_ below.
     - **NOTE:** Start time must be at least one hour beyond the time you create the campaign.
 3.  _(Optional)_ Link Audiences to the campaign. For field definitions, refer to _Campaign Fields_ below.
     - **NOTE:** Linking audience(s) is _optional_ to **create the campaign**; however, to submit the campaign for approval, at least one audience must be linked.
     - Click **Link Audience**.
-    - Select the **Source** of the audience: _CDP, Manual, RAF_
-    - Select the **checkbox(es)** next to the audience(s) you want to link.
+    - Select the **Source** of the audience
+    - Select the **checkbox(es)** next to the audience(s) you want to link to.
     - Click **Select audience**.
-
-   
 
 :::
 
@@ -176,22 +165,22 @@ _Example Commerce V2 Test 2 Campaign:_
 
 **Role permissions:** Marketer and Marketing Manager
 
-1.  Go to **Technodrome** → **Experience Manager** → **Campaign management**.
-2.  Click on a **Campaign**. The _Campaign_ page displays.
+1.  Go to **The Experience Manager** → **Campaign management**.
+2.  Click on a **Campaign**. The _Campaign_ page is displayed.
 3.  Click **Submit for approval**. A confirmation popup opens.
 4.  Click **Submit** to confirm.
-    - A confirmation message displays.
+    - A confirmation message is displayed.
     - The status is changed to _Waiting for approval_.
 
 ### Approve a Campaign
 
 **Role permission:** Marketing Manager
 
-1.  Go to **Technodrome** → **Experience Manager** → **Campaign management**.
-2.  Click on a **Campaign**. The _Campaign_ page displays.
+1.  Go to **The Experience Manager** → **Campaign management**.
+2.  Click on a **Campaign**. The _Campaign_ page is displayed.
 3.  Click the **Approval** toggle ON. A confirmation popup opens.
 4.  Click **Approve** to confirm.
-    - A confirmation message displays.
+    - A confirmation message is displayed.
     - The status is changed to _Ready to publish_.
 
 :::
@@ -200,28 +189,4 @@ _Example Commerce V2 Test 2 Campaign:_
 
 \<Referential materials that will help users understand the topic: diagrams, tables, glossaries, related articles, etc.\>
 
-:::example
 
-## Appendix
-
-### Campaign Fields
-
-| Campaign                |             Required             | Description                                                                                       | Notes                                                    |
-| ----------------------- | :------------------------------: | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| **Name**                |               Yes                | Unique name of the Campaign                                                                       | 4-256 characters                                         |
-| **Type**                |               Yes                | **Select type:**                                                                                  |                                                          |
-|                         |                                  | **_Fixed Period_** – Start/End date/time                                                          |                                                          |
-|                         |                                  | **_Evergreen_** – No end date                                                                     | **To be implemented**                                    |
-| **Start/End date/time** | Required for _Fixed Period_ type | When the campaign starts/ends                                                                     | Start/end times are Pacific Time                         |
-| **Description**         |                No                | Description of the Campaign                                                                       | 4-256 characters                                         |
-| **Linked Audience**     |                No                | Select source of the audience to be linked to the campaign, then select audience:                 | **Role permissions limit what audiences can be linked.** |
-|                         |                                  | **_CDP_** – Audience created in the CDP tool                                                      |                                                          |
-|                         |                                  | **_Manual_** – Audience manually created via **Experience Manager → Audience management**         |                                                          |
-|                         |                                  | **_RAF_** – Audience created via the Refer a Friend tool                                          |                                                          |
-| **Linked Content**      |                No                | Select the Source of the content:                                                                 | **Role permissions limit what content can be linked.**   |
-|                         |                                  | **_Commerce V2_** – directly entitling items or VC in legacy titles                               |                                                          |
-|                         |                                  | **\*Commerce V3 Direct Entitlements** – directly entitling items, VC, or licenses in new titles\* |                                                          |
-|                         |                                  | **_Commerce V3 Offers_** – directly targeting offers in new titles                                |                                                          |
-|                         |                                  | **_Promotions_** – directly targeting promotions for all titles                                   |                                                          |
-
-:::
