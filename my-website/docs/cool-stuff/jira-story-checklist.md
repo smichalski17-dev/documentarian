@@ -1,6 +1,6 @@
 ---
 title: Jira Story Writing Checklist
-description: ZMGT Documentation Template - Configuration Guide
+description: A checklist for writing stories in JIRA
 ---
 
 # Agile Story Writing Checklist

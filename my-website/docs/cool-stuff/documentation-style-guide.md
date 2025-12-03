@@ -1,4 +1,8 @@
-# 
+---
+title: Documentaiton Style Guide
+description: Comprehensive style guide for writing docs as code
+---
+
 
 # Documentation Style Guide
 
