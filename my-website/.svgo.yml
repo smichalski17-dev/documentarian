@@ -1,0 +1,17 @@
+plugins:
+  - removeMetadata: true
+  - removeTitle: true
+  - removeDesc: true
+  - removeComments: true
+  - removeEditorsNSData: true
+  - removeEmptyAttrs: true
+  - removeHiddenElems: true
+  - removeEmptyText: true
+  - cleanupAttrs: true
+  - cleanupIDs: true
+  - cleanupNumericValues:
+      floatPrecision: 2
+  - convertPathData:
+      floatPrecision: 2
+  - collapseGroups: true
+  - convertStyleToAttrs: true
