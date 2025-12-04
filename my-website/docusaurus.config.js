@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://smichalski17-dev.github.io',
+  url: 'https://smichalski17-dev/documentarian/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/documentarian/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Susan Michalski', // Usually your GitHub org/user name.
+  organizationName: 'smichalski17-dev', // Usually your GitHub org/user name.
   projectName: 'documentarian', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -51,13 +51,13 @@ const config = {
           // Remove this to remove the "edit this page" links.
           //editUrl:
             //'https://github.com/smichalski17-dev/documentarian',
-        },
+        /**},
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
-          },
+          },*/
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
