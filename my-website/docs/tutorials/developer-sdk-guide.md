@@ -20,7 +20,7 @@ All examples are made up from a fictional example game.
 
 [NOTE: The document title uses Heading 1 (a single hash), not Heading 2 (the double hash) as it is here. It is placed under the front matter inside the document.]
 
-:::example
+:::note
 
 ## SDK Developer Guide: Identity QR Based Account Linking v1.0
 
@@ -28,7 +28,7 @@ All examples are made up from a fictional example game.
 
 \*[Audience, Purpose, Subject summary statement]
 
-:::example
+:::note
 
 This page details how developers can implement an identity QR-based account linking feature, including integration for COPPA compliant login and registration.
 
@@ -43,7 +43,7 @@ This page details how developers can implement an identity QR-based account link
           - How players or developers interact with it
           - Why it’s important or useful]
 
-:::example
+:::note
 
 ## Introduction
 
@@ -66,7 +66,7 @@ This game requires **QR based account linking** for user registration and accoun
 
 \*[Provide a detailed description or list of the prerequisites that must be in place prior to process steps. (As with code, it is best to update content in only one instance, so link out to content that is repeated like prerequisite steps rather than writing and updating it in multiple locations.)]
 
-:::example
+:::note
 
 ## Prerequisites
 
@@ -82,7 +82,7 @@ Configured DNA application for all supported platforms in your Title.
 
 \*[Required and/or helpful configuration items, links to documentation, diagrams, etc.]
 
-:::example
+:::note
 
 ## Resources
 
@@ -97,7 +97,7 @@ Configured DNA application for all supported platforms in your Title.
 
 ### \* Config Event Name
 
-:::example
+:::note
 
 ## Event Configuration
 
@@ -113,7 +113,7 @@ Configured DNA application for all supported platforms in your Title.
 
 [Repeat above for each config event in the SDK guide]
 
-:::example Example 1
+:::note Example 1
 
 | Method | Request |
 | :-- | :-- |
@@ -121,7 +121,7 @@ Configured DNA application for all supported platforms in your Title.
 
 :::
 
-:::example Example 2
+:::note Example 2
 
 ## Event Configuration
 
@@ -158,7 +158,7 @@ Below are integration steps you can find in the SDK Sample Game source code.
 
 \*[Add steps to demonstrate how the configuration is verified or tested.]
 
-:::example
+:::note
 
 ## Verification Process: Player Experience Flow
 

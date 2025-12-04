@@ -21,7 +21,7 @@ All examples are made up from a fictional example game.
 
 [**NOTE**: The document title uses Heading 1 (a single hash), not Heading 2 (the double hash) as it is here. It is placed under the front matter inside the document.]
 
-    :::example
+    :::note
 
     ## MyGame Identity First-party SSO Implementation Guide
 
@@ -29,7 +29,7 @@ All examples are made up from a fictional example game.
 
 \*Audience, Purpose, Subject summary statement
 
-    :::example
+    :::note
 
     This guide provides developers with detailed instructions for setting up first-party SSO for ensuring secure and efficient logins in the MyGame platform.
 
@@ -44,7 +44,7 @@ All examples are made up from a fictional example game.
     - How players or developers interact with it
     - Why it’s important or useful]
 
-    :::example
+    :::note
 
     ## Introduction
 
@@ -60,7 +60,7 @@ All examples are made up from a fictional example game.
 
     \*[The audience of this part is the producers and product managers. They want to see the big picture in a single view from start to finish for evaluation and estimation. Remember to keep the focus on the process. If multiple types of users are involved in the configuration or onboarding, you’ll want to include swim lanes.]
 
-    :::example
+    :::note
 
     ## Overview: MyGame SSO Identity Validation Flow**
 
@@ -83,7 +83,7 @@ All examples are made up from a fictional example game.
 
     \*[List and describe the system components that must be configured and the other system's components that are being integrated with.]
 
-    :::example
+    :::note
 
     ## Components
 
@@ -100,7 +100,7 @@ All examples are made up from a fictional example game.
 
     \*[Provide a detailed description or list of the prerequisites that must be in place prior to working the process steps. (As with code, it is best to update content in only one instance, so link out to content that is repeated, like complicated prerequisite processes, rather than writing and updating it in multiple locations.)]
 
-    :::example
+    :::note
 
     ## Prerequisites
 
@@ -113,7 +113,7 @@ All examples are made up from a fictional example game.
 
     \*[Provide required and/or helpful information, links to documentation, diagrams, etc.]
 
-    :::example
+    :::note
 
     ## Resources
 
@@ -139,7 +139,7 @@ All examples are made up from a fictional example game.
 
 ### Step 2: \*Description [Verb + Noun phrase]
 
-:::example
+:::note
 
 ## Publish XBox App with SSO
 
@@ -188,7 +188,7 @@ Use the following steps in the to set up your application for SSO. You’ll get 
 
     \*[Include this section if there is some logical next action that must be taken or link to documentation for that activity.]
 
-    :::example
+    :::note
 
     ## Next Steps
 

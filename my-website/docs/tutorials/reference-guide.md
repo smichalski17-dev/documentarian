@@ -19,7 +19,7 @@ All examples are made up from a fictional example game.
 
 ## \* Title and Version (Product \+ Document Type \+ v1.0 or other number)
 
-:::example
+:::note
 
 ## Reference Guide: Commerce Smart Pricing: Repurchase Policy v1.0
 
@@ -27,7 +27,7 @@ All examples are made up from a fictional example game.
 
 \*Audience, Purpose, Subject summary statement
 
-    :::example
+    :::note
 
     This page explains **Smart Pricing** and **Repurchase Policy** for Studio Developers and Live Ops users setting up a pricing strategy for in-game inventory items and offers.
 
@@ -42,7 +42,7 @@ All examples are made up from a fictional example game.
     - How players or developers interact with it
     - Why it’s important or useful]
 
-    :::example
+    :::note
 
     # Introduction
 
@@ -58,7 +58,7 @@ All examples are made up from a fictional example game.
 
 \*[Include reference information that explains the topic, such as definitions, diagrams, use cases, examples, related articles, etc.]
 
-:::example
+:::note
 
 ## Terms and Definitions
 

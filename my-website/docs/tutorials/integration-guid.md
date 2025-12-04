@@ -18,7 +18,7 @@ All examples are made up from a fictional example game.
 
 ## Title and Version (Product \+ Document Type \+ v1.0 or other number)
 
-:::example
+:::note
 
 ## Integration Guide: MyGame First-party Reconciliation v1.0
 
@@ -26,7 +26,7 @@ All examples are made up from a fictional example game.
 
 \*[Audience, Purpose, Subject summary statement]
 
-:::example
+:::note
 
 This guide outlines the necessary steps and identifiers that Studio Developers/Engineering/Programmers need to integrate Xbox to allow reconciliation of purchases within a game.
 
@@ -41,7 +41,7 @@ This guide outlines the necessary steps and identifiers that Studio Developers/E
 - How players or developers interact with it
 - Why it’s important or useful]
 
-:::example
+:::note
 
 Digital commerce systems must be integrated with gaming platforms to enable reconciliation operations. In this process, a first-party purchase refers to buying an item directly from a platform’s official store, using real currency through the platform’s SDKs. To ensure consistency and accuracy across systems, a reconciliation operation is required after such a purchase. This process verifies that the item acquired from the first-party store is also properly reflected in the system, which manages in-game entitlements and inventory. Essentially, reconciliation involves checking the user’s inventory on the first-party platform and granting the corresponding items within digital commerce, based on predefined mappings between the two systems.
 
@@ -55,7 +55,7 @@ Digital commerce systems must be integrated with gaming platforms to enable reco
 
 \*[Provide a detailed description or list of the prerequisites that must be in place prior to process steps. **In an Integration guide**, you may have prerequisites from both sides of the integration. (As with code, it is best to update content in only one instance, so link out to content that is repeated, such as prerequisite steps, rather than writing and updating it in multiple locations.)]
 
-:::example
+:::note
 
 ## Prerequisites
 
@@ -73,7 +73,7 @@ Digital commerce systems must be integrated with gaming platforms to enable reco
 
 \*[List and describe the system components that must be integrated and any settings that must be configured. May be expressed as a table. The name of the headings below are specific to this example.]
 
-:::example
+:::note
 
 ## Components
 
@@ -104,7 +104,7 @@ Digital commerce systems must be integrated with gaming platforms to enable reco
 
 ### Step 2: \*[Verb + Noun phrase]
 
-:::example
+:::note
 
 ## Integration Processes
 
@@ -130,7 +130,7 @@ For game services to accurately determine which platform applications requires r
 
 \*[This section, you would point to instructions for doing the activity that you enabled by completing the integration.]
 
-:::example
+:::note
 
 # Next Steps
 

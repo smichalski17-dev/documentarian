@@ -21,7 +21,7 @@ All examples are made up from a fictional example game.
 
 [NOTE: The document title uses Heading 1 (a single hash), not Heading 2 (the double hash) as it is here. It is placed under the front matter inside the document.]
 
-:::example
+:::note
 
 ## User Guide: Create and Manage Campaigns v1.0
 
@@ -29,7 +29,7 @@ All examples are made up from a fictional example game.
 
 \*Audience, Purpose, Subject summary statement
 
-:::example
+:::note
 
 This page provides an overview of Experience Manager and details how developers can view, create, and manage campaigns.
 
@@ -44,7 +44,7 @@ This page provides an overview of Experience Manager and details how developers 
 - How players or developers interact with it
 - Why it’s important or useful]
 
-:::example
+:::note
 
 ## Introduction
 
@@ -61,7 +61,7 @@ The **Experience Manager** is a “content orchestrator” to create personalize
 
 \*[The audience of this part is for Studio Developers/Engineering/Programmers and Live Ops. They want to see the big picture in a single view from start to finish, or they want a visual to describe the end product. Remember to keep the focus on the process or end result.]
 
-:::example
+:::note
 
 ## Overview Process Flow and Diagram
 
@@ -78,7 +78,7 @@ Campaigns are created and managed in **The Experience Manager**.
 
 \*[Can include definitions for parts of the UI, end results, and/or product-related terms or components.]
 
-:::example
+:::note
 
 ## Definitions: Campaign Status & Actions
 
@@ -101,7 +101,7 @@ The table below defines available actions for a campaign in a specific status.
 
 \*[Provide a detailed description or list of the prerequisites that must be in place prior to process steps. (As with code, it is best to update content in only one instance, so link out to content that is repeated like prerequisite steps rather than writing and updating it in multiple locations.)]
 
-:::example
+:::note
 
 ## Prerequisites
 
@@ -124,7 +124,7 @@ The table below defines available actions for a campaign in a specific status.
 - Example (description, image, or code snippet)
 - Statement of completion]
 
-:::example
+:::note
 
 ## Processes
 
@@ -157,7 +157,7 @@ _Example Test 2 Campaign:_
 
 \<Include this section if there is some logical next action that the audience would take. Link to the documentation for that activity.\>
 
-:::example
+:::note
 
 ## Next Steps
 

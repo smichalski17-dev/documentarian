@@ -24,8 +24,10 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.9.2",
-    "@docusaurus/types": "3.9.2"
+    "@docusaurus/types": "3.9.2",
+    "gh-pages": "^4.0.0"
   },
+  "homepage": "https://smichalski17-dev.github.io/documentarian",
   "browserslist": {
     "production": [
       ">0.5%",

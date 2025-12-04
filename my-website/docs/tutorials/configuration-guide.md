@@ -21,7 +21,7 @@ All examples are made up from a fictional example game.
 
     [NOTE: The document title uses Heading 1 (a single hash), not Heading 2 (the double hash) as it is here. It is placed under the front matter inside the document.]
 
-    :::example
+    :::note
 
     ## Game Autoscaling: Multiplayer Configuration Guide
 
@@ -29,7 +29,7 @@ All examples are made up from a fictional example game.
 
 \*Audience, Purpose, Subject summary statement
 
-    :::example
+    :::note
 
     This page details how developers can configure the game autoscaling management feature.
 
@@ -44,7 +44,7 @@ All examples are made up from a fictional example game.
     - How players or developers interact with it
     - Why it’s important or useful]
 
-    :::example
+    :::note
 
     ## Introduction
 
@@ -56,7 +56,7 @@ All examples are made up from a fictional example game.
 
 \*[Provide a detailed description or list of the prerequisites that must be in place prior to process steps. (As with code, it is best to update content in only one instance, so link out to content that is repeated, such as prerequisite steps, rather than writing and updating it in multiple locations.)]
 
-    :::example
+    :::note
 
     ## Prerequisites
 
@@ -76,7 +76,7 @@ All examples are made up from a fictional example game.
     - Configuration instructions
     - Examples]
 
-    :::example Example 1: Config Items List
+    :::note Example 1: Config Items List
 
     ## Configuration Items
 
@@ -88,7 +88,7 @@ All examples are made up from a fictional example game.
     :::
 
 
-    :::example Example 2: Config Items Table
+    :::note Example 2: Config Items Table
 
     | Attributes | Description | Format |
     | --- | --- | --- |
@@ -102,7 +102,7 @@ All examples are made up from a fictional example game.
     :::
 
 
-    :::example Example 3: Config File
+    :::note Example 3: Config File
 
     The code sample below represents a full example of an autoscaling configuration that contains both a **schedule** and an **override** event.
 
@@ -177,7 +177,7 @@ All examples are made up from a fictional example game.
 
 \* Describe the steps required to generate a build and publish to production if this is part of the configuration process.
 
-    :::example
+    :::note
 
     ## Build and Publish
 
