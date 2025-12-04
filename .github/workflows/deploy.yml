@@ -7,11 +7,12 @@ on:
   pull_request:
     branches: 
       - main
+  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
-  SSH: write
+  id-token: write
 
 jobs:
   build-and-deploy:
