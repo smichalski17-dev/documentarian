@@ -79,12 +79,6 @@ One API key is assigned to each merchant.  This header is used for all API reque
 | :---- | :---- |
 | **URI** | http://{ServerName}/Shipment |
 
-### Shipment Request XML/JSON 
-
-| XML Request  | JSON Request |
-| :---- | :---- |
-| \<ShipmentRequestData xmlns="http://schemas.datacontract.org/2004/07/Newgistics.WebServices.ShipmentAPI"\>   \<Transporter\>     \<Carrier\>String content\</Carrier\>     \<ClassOfService\>String content\</ClassOfService\>     \<TransporterCode\>String content\</TransporterCode\>   \</Transporter\>   \<additionalData\>     \<NameValue\>       \<Name\>String content\</Name\>       \<Value\>String content\</Value\>     \</NameValue\>     \<NameValue\>       \<Name\>String content\</Name\>       \<Value\>String content\</Value\>     \</NameValue\>   \</additionalData\>   \<clientServiceFlag\>String content\</clientServiceFlag\>   \<consumer\>     \<Address\>       \<Address1\>String content\</Address1\>       \<Address2\>String content\</Address2\>       \<Address3\>String content\</Address3\>       \<City\>String content\</City\>       \<CountryCode\>String content\</CountryCode\>       \<Name\>String content\</Name\>       \<State\>String content\</State\>       \<Zip\>String content\</Zip\>     \</Address\>     \<DaytimePhoneNumber\>String content\</DaytimePhoneNumber\>     \<EmailOptInFlag\>String content\</EmailOptInFlag\>     \<EveningPhoneNumber\>String content\</EveningPhoneNumber\>     \<FaxNumber\>String content\</FaxNumber\>     \<FirstName\>String content\</FirstName\>     \<Honorific\>String content\</Honorific\>     \<LastName\>String content\</LastName\>     \<MiddleInitial\>String content\</MiddleInitial\>     \<PrimaryEmailAddress\>String content\</PrimaryEmailAddress\>     \<SecondaryEmailAddress\>String content\</SecondaryEmailAddress\>   \</consumer\>   \<deliveryMethod\>String content\</deliveryMethod\>   \<destination\>     \<Address1\>String content\</Address1\>     \<Address2\>String content\</Address2\>     \<Address3\>String content\</Address3\>     \<City\>String content\</City\>     \<CountryCode\>String content\</CountryCode\>     \<Name\>String content\</Name\>     \<State\>String content\</State\>     \<Zip\>String content\</Zip\>   \</destination\>   \<dispositionRuleSetId\>2147483647\</dispositionRuleSetId\>   \<labelCount\>2147483647\</labelCount\>   \<merchantID\>String content\</merchantID\> \<pickupRequest\>     \<packageCount\>2147483647\</packageCount\>     \<pickupAfter\>1999-05-31T11:20:00\</pickupAfter\>     \<pickupBefore\>1999-05-31T11:20:00\</pickupBefore\>     \<pickupDate\>1999-05-31T11:20:00\</pickupDate\>     \<remarks\>String content\</remarks\>     \<totalWeight\>12678967.543233\</totalWeight\>   \</pickupRequest\>   \<returnId\>String content\</returnId\>   \<userType\>String content\</userType\>  | The following is an example request Json body:  { 	"Transporter":{ 		"Carrier":"String content", 		"ClassOfService":"String content", 		"TransporterCode":"String content" 	}, 	"additionalData":\[{ 		"Name":"String content", 		"Value":"String content" 	}\], 	"clientServiceFlag":"String content", 	"consumer":{ 		"Address":{ 			"Address1":"String content", 			"Address2":"String content", 			"Address3":"String content", 			"City":"String content", 			"CountryCode":"String content", 			"Name":"String content", 			"State":"String content", 			"Zip":"String content" 		}, 		"DaytimePhoneNumber":"String content", 		"EmailOptInFlag":"String content", 		"EveningPhoneNumber":"String content", 		"FaxNumber":"String content", 		"FirstName":"String content", 		"Honorific":"String content", 		"LastName":"String content", 		"MiddleInitial":"String content", 		"PrimaryEmailAddress":"String content", 		"SecondaryEmailAddress":"String content" 	}, 	"deliveryMethod":"String content", 	"destination":{ 		"Address1":"String content", 		"Address2":"String content", 		"Address3":"String content", 		"City":"String content", 		"CountryCode":"String content", 		"Name":"String content", 		"State":"String content", 		"Zip":"String content" 	}, 	"dispositionRuleSetId":2147483647, 	"labelCount":2147483647, 	"merchantID":"String content", 	"pickupRequest":{ 		"packageCount":2147483647, 		"pickupAfter":"\\/Date(928167600000-0500)\\/", 		"pickupBefore":"\\/Date(928167600000-0500)\\/", 		"pickupDate":"\\/Date(928167600000-0500)\\/", 		"remarks":"String content", 		"totalWeight":12678967.543233 	}, 	"returnId":"String content", 	"userType":"String content" } The following is an example response Xml body:    |
-
 ### Shipment Data Elements-Schema Information
 
 | Complex Type Name/Element |  | Element |  | Null Allowed | Data Type | Description |
@@ -180,8 +174,7 @@ One API key is assigned to each merchant.  This header is used for all API reque
 | **X-AspNet-Version:**  | 4.0.30319 | 4.0.30319 |  4.0.30319 |
 | **X-Powered-By:**  | ASP.NET |  ASP.NET | ASP.NET |
 | **Date** | Fri, 17 Aug 2012 18:24:43 GMT | Fri, 17 Aug 2012 18:19:23 GMT |  |
-| **Message** | A valid API key needs to be included using the x-API-Key HTTP Header | "ER1016:Zip code is missing or invalid;" |  |
-| **Html Sample** | \<html\>\<head\>\<title\>Request Error \- No API Key\</title\>\<style type="text/css"\>         body         {             font-family: Verdana;             font-size: large;         }     \</style\>\</head\>\<body\>\<h1\>         Request Error     \</h1\>\<p\>         A valid API key needs to be included using the x-API-Key HTTP Header     \</p\>\</body\>\</html\> |  | {"PrimaryBarcode":"7051078799NGST01123456789AY","ShipmentID":"99387D55E973FBA71A5A60A8DF2A97151008F4C625BC80BF","generalCharge":null,"labelURL":"http:\\/\\/returnscenter.int.smartlabel.com\\/v3\\/PrintWebLabel.aspx?weblabelid=FA3F1D16CCBDA16C79B76F938278B08D094727EB0DF2FB80","perPackageCharges":null,"transporter":{"Carrier":"USPS","ClassOfService":"USPS Return Delivery Unit","TransporterCode":"5"}} |
+| **Message** | A valid API key needs to be included using the x-API-Key HTTP Header | "ER1016:Zip code is missing or invalid;" |
 
 ## Cancel Pickup
 
@@ -190,12 +183,6 @@ One API key is assigned to each merchant.  This header is used for all API reque
 | Method | POST |
 | :---- | :---- |
 | **URI** | http://{ServerName}/Shipment /{id}/CancelPickup |
-
-### Cancel Pickup Request XML/JSON
-
-| XML Request  | JSON Request |
-| :---- | :---- |
-| \<CancelPickupRequestData xmlns="http://schemas.datacontract.org/2004/07/Newgistics.WebServices.ShipmentAPI"\>   \<confirmationNumber\>String content\</confirmationNumber\>   \<merchantID\>String content\</merchantID\>   \<postalCode\>String content\</postalCode\>   \<remarks\>String content\</remarks\>   \<shipmentID\>String content\</shipmentID\>   \<userType\>String content\</userType\> \</CancelPickupRequestData\> | { 	"confirmationNumber":"String content", 	"merchnatID":"String content", 	"postalCode":"String content", 	"remarks":"String content", 	"shipmentID":"String content", 	"userType":"String content" } |
 
 ### Cancel Pickup Data Elements-Schema Information
 
@@ -250,12 +237,6 @@ One API key is assigned to each merchant.  This header is used for all API reque
 | :---- | :---- |
 | **URI** | http://{ServerName}/Shipment /{id}/RequestPickup |
 
-### Request Pickup Request XML/JSON
-
-| XML Request  | JSON Request |
-| :---- | :---- |
-| \<PickupRequestData xmlns="http://schemas.datacontract.org/2004/07/Newgistics.WebServices.ShipmentAPI"\>   \<packageCount\>2147483647\</packageCount\>   \<pickupAfter\>1999-05-31T11:20:00\</pickupAfter\>   \<pickupBefore\>1999-05-31T11:20:00\</pickupBefore\>   \<pickupDate\>1999-05-31T11:20:00\</pickupDate\>   \<remarks\>String content\</remarks\>   \<totalWeight\>12678967.543233\</totalWeight\> \</PickupRequestData\> | { 	"packageCount":2147483647, 	"pickupAfter":"\\/Date(928167600000-0500)\\/", 	"pickupBefore":"\\/Date(928167600000-0500)\\/", 	"pickupDate":"\\/Date(928167600000-0500)\\/", 	"remarks":"String content", 	"totalWeight":12678967.543233 } |
-
 ### Request Pickup Data Elements-Schema Information
 
 | Element | Null Allowed | Data Type | Description |
@@ -289,12 +270,6 @@ One API key is assigned to each merchant.  This header is used for all API reque
 | Method | POST |
 | :---- | :---- |
 | **URI** | http://{ServerName}/Shipment /Tracking |
-
-### Tracking Request XML/JSON
-
-| XML Request  | JSON Request |
-| :---- | :---- |
-| \<TrackingRequestData xmlns="http://schemas.datacontract.org/2004/07/Newgistics.WebServices.ShipmentAPI"\>   \<merchantID\>String content\</merchantID\>   \<qualifier\>String content\</qualifier\>   \<searchStrings\>     \<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays"\>String content\</string\>     \<string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays"\>String content\</string\>   \</searchStrings\> \</TrackingRequestData\> | { 	"merchantID":"String content", 	"qualifier":"String content", 	"searchStrings":\["String content"\] } |
 
 ### Tracking Data Elements-Schema Information
 
