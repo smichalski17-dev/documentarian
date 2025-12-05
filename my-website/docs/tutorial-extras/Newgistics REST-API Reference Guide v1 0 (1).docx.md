@@ -159,11 +159,8 @@ One API key is assigned to each merchant.  This header is used for all API reque
 |  |  | ClassOfServic |  | yes | string | Class of service used for this transporter. Defaults to client configured transporter class of service. |
 |  |  | TransporterCode |  | yes | string | Code for the class of service used for this transporter. Defaults to client configured transporter code. |
 
-| Shipment Response Example |
-| :---- |
-| {"PrimaryBarcode":"7051078799NGST01123456789AY","ShipmentID":"99387D55E973FBA71A5A60A8DF2A97151008F4C625BC80BF","generalCharge":null,"labelURL":"http:\\/\\/returnscenter.int.smartlabel.com\\/v3\\/PrintWebLabel.aspx?weblabelid=FA3F1D16CCBDA16C79B76F938278B08D094727EB0DF2FB80","perPackageCharges":null,"transporter":{"Carrier":"USPS","ClassOfService":"USPS Return Delivery Unit","TransporterCode":"5"}} |
 
-      1. ### **Shipment Responses** {#shipment-responses}
+#### Shipment Responses
 
 | Property | 401 Status when API Key is missing or invalid | Response for invalid data | Label Request Response (raw) |
 | :---- | :---- | :---- | :---- |
