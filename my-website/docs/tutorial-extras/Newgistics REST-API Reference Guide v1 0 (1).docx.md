@@ -11,7 +11,6 @@ description: >
 
 **Version 2.0**
 
-
 ***Document Revision History***
 
 | Version | Date | Significant Changes |
@@ -352,17 +351,3 @@ One API key is assigned to each merchant.  This header is used for all API reque
 |  |  | TrackingNumber |  | yes | string | The package tracking number |
 |  |  | UnitOfMeasure |  | yes | string | The units of the weight measure (Default-lbs) |
 |  |  | Weight |  | yes | decimal | The weight of the package |
-|  |  |  |  |  |  |  |
-| **Tracking Response Example** |  |  |  |  |  |  |
-
-HTTP/1.1 200 OK  
-Cache-Control: private  
-Content-Length: 58303  
-**Content-Type: application/json; charset=utf-8**  
-Server: Microsoft-IIS/7.5  
-X-AspNet-Version: 4.0.30319  
-X-Powered-By: ASP.NET  
-Date: Fri, 17 Aug 2012 19:08:17 GMT
-
-{"Packages":\[{"CarrierCode":"NEWG","CarrierCodeDescription":"Newgistics, Inc.","CarrierName":"United States Postal Service","CarrierService":"USPS Return Delivery Unit","CarrierServiceCode":null,"CarrierServiceCodeDescription":null,"ErrorMessage":"","EstimatedDeliveryDate":null,"EstimatedDeliveryText":null,"FinalCarrier":null,"MerchantName":null,"PackageTrackingEvents":\[{"CSREventMessage":"Label created","CarrierCode":"LC","CarrierDescription":"Label Created","City":"","ConsumerEventMessage":"Label created","CreateDate":"\\/Date(1343702575000-0500)\\/","Date":"\\/Date(1343624400000-0500)\\/","Description":"Label Created","EventCode":"LC","EventDescription":"Label Created","FacilityID":114,"FacilityName":"","PostalCode":"","State":"","Time":"\\/Date(1345242660000-0500)\\/","TrackingKey":"163298425","UpdateDate":"\\/Date(1343702575000-0500)\\/"}\],"ReferenceNumber":"123456789A","ShipToAddressLine1":"2700 Via Fortuna","ShipToAddressLine2":"Suite 300","ShipToCity":"Austin","ShipToName":"Austin \- Newgistics Test 44","ShipToPostalCode":"78746","ShipToState":"TX","Signer":null,"Status":"Unknown","TrackingNumber":"123456789A","UnitOfMeasure":"pounds","Weight":null}\]}
-
