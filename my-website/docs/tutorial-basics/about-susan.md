@@ -5,7 +5,7 @@ description: Susan Michalski's biography
 
 # About Susan Michalski
 
-![Author picture](\img\tech-writer-1.JPG)
+![Author picture](\img\tech-writer-1.JPG){width=2955px height=1278}
 
 Susan Michalski grew up in rural upstate New York with three brothers, two sisters and an assortment of strays. After getting a degree in English and Drama from SUNY Geneseo, she hit the road, making her way to California via Cedar City, Utah where she sewed costumes at the Utah Shakespearean Festival and then Berkeley Repertory Theatre.
 
