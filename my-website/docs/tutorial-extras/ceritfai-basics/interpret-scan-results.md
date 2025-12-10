@@ -12,11 +12,10 @@ Certifai scan results can offer significant information to model developers and 
 ## Prerequisites
 
 The discussion below assumes a working knowledge of the what trust factors are and how they are derived by counterfactuals. Read the pages related to trust factors before proceeding.
-- [Performance Metrics](/certifai-basics/factors/performance-metric.md)
-- [Robustness](/certifai-basics/factors/robustness.md)
-- [Fairness](/certifai-basics/factors/fairness.md)
-- [Explainability and Explanations](/certifai-basics/factors/explainability.md)
-- [ATX](/certifai-basics/factors/atx.md)
+- [Performance Metrics](/tutorial-extras/certifai-basics/factors/performance-metric.md)
+- [Fairness](/tutorial-extras/certifai-basics/factors/fairness.md)
+- [Explainability and Explanations](/tutorial-extras/certifai-basics/factors/explainability.md)
+- [ATX](/tutorials-extras/certifai-basics/factors/atx.md)
 
 
 ## Assumptions
@@ -256,7 +255,7 @@ The explanation detail (#29) below shows a counterfactual explanation for a pred
 
 The explanation detail (#29) below shows a counterfactual explanation for a prediction made by the MLPC model.   
 
-![Banking:Loan Approval Counterfactual Explanation 29 for Multi-Layer Perceptron Classifier model](img/interp-banking-expl-obs29-MLPC.png)
+![Banking:Loan Approval Counterfactual Explanation 29 for Multi-Layer Perceptron Classifier model](/img/interp-banking-expl-obs29-MLPC.png)
 
 **Observation**:
 

@@ -11,7 +11,7 @@ Data Statistics and Drift Monitoring capabilities can be accessed through this p
 
 The Data Statistics evaluation type is a tool to monitor changes in new datasets when compared to a reference dataset. Certifai's data_statistics evaluation type allows users to monitor data trends, analyze data characteristics, and detect the presence of both feature drift and prediction label drift.
 
-The output of this evaluation type is NOT calculated as part of the [ATX score](/certifai-basics/factors/atx.md).
+The output of this evaluation type is NOT calculated as part of the [ATX score](/tutorial-extras/certifai-basics/factors/atx.md).
 
 Scans that run Data Statistics evaluations offer report output in the publicly available notebook for Toolkit users and in the future will output to a Monitoring Dashboard for Enterprise users. Only the Toolkit version is currently available.
 
