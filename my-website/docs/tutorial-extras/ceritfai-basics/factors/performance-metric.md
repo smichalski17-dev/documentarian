@@ -26,14 +26,14 @@ Certifai can calculate the following metrics as part of the Performance Evaluati
 * F1
 * R-Squared
 
-<Alert title="Info" color="primary">
+:::note
 
 Certifai supports `micro`, `macro`, and `binary` variants of Recall, Precision, and F1. The default variant for each of
 these metrics is `binary`.  To specify a variant of the listed metrics, you should place the variant within parenthesis.
 For example, `Recall(micro)` specifies the micro variant of Recall, while `Recall` alone is equivalent to the the binary
 variant of Recall.
 
-</Alert>
+:::
 
 Other performance metrics can be included as part of the Performance Evaluation, but each model in the evaluation
 must specify the corresponding metric value in the scan definition.
