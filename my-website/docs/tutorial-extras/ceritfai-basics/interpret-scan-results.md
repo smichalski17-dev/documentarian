@@ -12,10 +12,10 @@ Certifai scan results can offer significant information to model developers and 
 ## Prerequisites
 
 The discussion below assumes a working knowledge of the what trust factors are and how they are derived by counterfactuals. Read the pages related to trust factors before proceeding.
-- [Performance Metrics](performance-metric.md)
-- [Fairness](fairness.md)
-- [Explainability and Explanations](explainability.md)
-- [ATX](atx.md)
+- [Performance Metrics](tutorial-extras/ceritfai-basics/factors/performance-metric.md)
+- [Fairness](tutorial-extras/ceritfai-basics/factors/fairness.md)
+- [Explainability and Explanations](tutorial-extras/ceritfai-basics/factors/explainability.md)
+- [ATX](tutorial-extras/ceritfai-basics/factors/atx.md)
 
 
 ## Assumptions
