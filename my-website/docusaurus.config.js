@@ -99,11 +99,11 @@ const config = {
             label: 'Documentation',
           },
           
-          /**{
+          {
             href: 'https://github.com/smichalski17-dev/documentarian/',
             label: 'GitHub',
             position: 'right',
-          },*/
+          },
         ],
       },
       footer: {
