@@ -389,7 +389,7 @@ Use standard markdown syntax: \[Link text\](https://google.com)
 
 #### Markdown format in file: 
 
-\!\[Image alt tag value\](/zynga/img/filename.png)
+\!\[Image alt tag value](/zynga/img/filename.png)
 
 #### Image Storage
 
