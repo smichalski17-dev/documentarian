@@ -134,7 +134,7 @@ Drift for regression tasks is determined using a Kolmogorov-Smirnov hypothesis t
 
 **Example Prediction Drift report**
 
-  ![Prediction Drift reports](//img/data-stats-prediction-drift.png)
+  ![Prediction Drift reports](/img/data-stats-prediction-drift.png)
 
 
   The drift in the labels becomes statistically significant for a few of the datasets (i.e. crossing the threshold).
